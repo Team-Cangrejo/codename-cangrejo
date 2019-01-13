@@ -1,10 +1,6 @@
 //Messages go into an array, starting at 0
 message[0] = "Welcome to the beach. You would love it here, but... [Press Z to continue]...";
-message[1] = "... Humans. They're everywhere. Building sand structures, making noise [Press Z to continue]...";
-message[2] = "and dropping garbage everywhere. Today - today, is your day to reclaim [Press Z to continue]...";
-message[3] = "what is rightfully yours. Survive the mobs of humans [Press Z to continue]...";
-message[4] = "and bring them as much chaos as you can. Look around and [Press Z to continue]...";
-message[5] = "choose an activity that will bring you closer to full coastal reclaimation. [Press Z to close]";
+message[1] = "... Humans. They're everywhere. Building sand structures, making noise and dropping garbage everywhere. Today - today, is your day to reclaim what is rightfully yours. Survive the mobs of humans and bring them as much chaos as you can. Look around and choose an activity that will bring you closer to full coastal reclaimation. [Press Z to close]";
 
 message_current = 0; //0 is the first number in our array. This tracks where we are in our messages as well.
 message_end = array_length_1d(message)-1; //the last message in the array will always be this formula.

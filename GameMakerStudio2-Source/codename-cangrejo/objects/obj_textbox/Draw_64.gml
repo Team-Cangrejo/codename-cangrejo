@@ -5,7 +5,7 @@ draw_rectangle(0, vh*0.85, vw, vh, false) //draw a neat black rectangle
 draw_set_color(c_white)
 
 
-draw_text(vw*0.01, vh*0.90, message_draw); //draw the text at the coordinates
+draw_text_ext_transformed(vw*0.01, vh*0.86, message_draw, 16, vw, 1, 1, 0);
 
 /*
  So I had some issues with the camera and getting the things to draw where I want them
