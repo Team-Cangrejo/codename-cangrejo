@@ -1,7 +1,5 @@
 //Messages go into an array, starting at 0
 message[0] = "There is some cool text that goes here!";
-message[1] = "Some more funky fresh text";
-message[2] = "Whatever you wanna do, write it here.";
 
 message_current = 0; //0 is the first number in our array. This tracks where we are in our messages as well.
 message_end = array_length_1d(message)-1; //the last message in the array will always be this formula.
