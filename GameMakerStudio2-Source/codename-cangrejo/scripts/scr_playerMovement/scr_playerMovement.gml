@@ -4,11 +4,11 @@
         {
             x-=2    
         }
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 180)
+		else if (place_free(x+(sprite_xoffset/4), y) && image_angle == 180)
 		{
 			x+=2
 		}
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 90)
+		else if (place_free(x, y+(sprite_yoffset/4)) && image_angle == 90)
 		{
 			y+=2
 		}
@@ -23,7 +23,7 @@
         {
             x+=2    
         }
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 180)
+		else if (place_free(x-(sprite_xoffset/4), y) && image_angle == 180)
 		{
 			x-=2
 		}
@@ -31,7 +31,7 @@
 		{
 			y-=2
 		}
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 270)
+		else if (place_free(x, y+(sprite_yoffset/4)) && image_angle == 270)
 		{
 			y+=2
 		}
