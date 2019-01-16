@@ -13,6 +13,7 @@ if(state == states.idle){
 		state = states.alert;
 	}
 	#endregion
+	show_debug_message("Idle!")
 }
 
 else if(state == states.wander){
@@ -27,9 +28,24 @@ else if(state == states.wander){
 		switch(change){
 			case 0: state = states.idle;
 			case 1:
-				my_dir = irandom_range(0,359);
-				moveX = lengthdir_x(spd, my_dir);
-				moveY = lengthdir_y(spd, my_dir);
+				mv_dir = (irandom_range(0,3) * 90);
+				if (mv_dir == 0 && place_free(x, y-(sprite_yoffset/4))) {
+					moveX = 0;
+					moveY = -spd;
+				}
+				else if (mv_dir == 90 && place_free(x+(sprite_xoffset/4), y)) {
+					moveX = spd;
+					moveY = 0;
+				}
+				else if (mv_dir == 180 && place_free(x, y+(sprite_yoffset/4))) {
+					moveX = 0;
+					moveY = spd;
+				}
+				else if (mv_dir == 270 && place_free(x-(sprite_xoffset/4), y)) {
+					moveX = -spd;
+					moveY = 0;
+				}
+
 				counter = 0;
 		}
 	}
@@ -39,6 +55,7 @@ else if(state == states.wander){
 		
 		image_xscale = sign(moveX);
 		#endregion
+		show_debug_message("Wander!")
 }
 
 else if(state ==states.alert){
@@ -58,6 +75,7 @@ else if(state ==states.alert){
 	}
 	image_xscale = sign(moveX);
 	#endregion
+	show_debug_message("Alert!")
 }
 
 else if(state == states.attack){
@@ -77,4 +95,5 @@ else if(state == states.attack){
 	}
 	image_xscale = sign(moveX);
 	#endregion
+	show_debug_message("Attack!")
 }
