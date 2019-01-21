@@ -16,7 +16,7 @@ if(state == statesArray[0]){
 	}
 	#endregion
 }
-if(state == statesArray[1]){
+else if(state == statesArray[1]){
 	#region Wander
 	counter +=1;
 	if(counter >= room_speed * 3){
@@ -35,16 +35,34 @@ if(state == statesArray[1]){
 	}
 	#endregion
 }
-if(state == statesArray[2]){
+else if(state == statesArray[2]){
 	#region Alert
 	
 	if(!collision_circle(x,y, 64, obj_player, false, false)){
 		state = statesArray[0];
 		show_debug_message("Idle from Alert!");
 	}
-	if( collision_circle(x,y, 32, obj_player, false, false)){
+	if( collision_circle(x,y, wallRadius, obj_wall, false, false)){
+		show_debug_message("WALL DETECTED!");
+		state = statesArray[3];
+	}
+	if( collision_circle(x,y, 8, obj_player, false, false)){
+		with obj_player{
+			x=xstart;
+			y=ystart;
+		}
 		state = statesArray[0];
 		show_debug_message("Attack!");
+	}
+	#endregion
+}
+else if(state = statesArray[3]){
+	#region Collision
+	if (collision_circle(x,y, wallRadius, obj_wall, false, false)) && (collision_circle(x,y, 64, obj_player, false, false)){
+		state = statesArray[3]
+	}
+	if (!collision_circle(x,y, 64, obj_player, false, false)){
+		state = statesArray[1];
 	}
 	#endregion
 }
