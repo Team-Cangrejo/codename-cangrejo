@@ -33,4 +33,8 @@ if keyboard_check_pressed(ord("O")) //kill your crabs
     }
 }
 
-draw_text(64, 64, string(obj_player.playerHealth) + " / " + string(obj_player.maxHealth)); //draw health to make sure it works
+//draw_text(64, 64, string(obj_player.playerHealth) + " / " + string(obj_player.maxHealth)); //draw health to make sure it works
+
+if obj_player.playerHealth <= 0 {
+	room_restart();
+}

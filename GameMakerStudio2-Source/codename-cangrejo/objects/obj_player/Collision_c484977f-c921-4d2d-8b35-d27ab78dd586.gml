@@ -1,0 +1,1 @@
+playerHealth -= 1;
