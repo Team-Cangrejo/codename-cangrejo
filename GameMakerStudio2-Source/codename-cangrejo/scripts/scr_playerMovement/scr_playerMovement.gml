@@ -1,41 +1,55 @@
-	if kLeft
-    {
-        if (place_free(x-(sprite_xoffset/4), y) && image_angle == 0)
-        {
-            x-=2    
-        }
-		else if (place_free(x+(sprite_xoffset/4), y) && image_angle == 180)
-		{
-			x+=2
-		}
-		else if (place_free(x, y+(sprite_yoffset/4)) && image_angle == 90)
-		{
-			y+=2
-		}
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 270)
-		{
-			y-=2
-		}
+if kLeft {
+    if (place_free(x-(sprite_xoffset/4), y) && rot == 0) {
+        x-=spd    
     }
+	else if (place_free(x+(sprite_xoffset/4), y) && (rot == 180 || rot == -180)) {
+		x+=spd
+	}
+	else if (place_free(x, y+(sprite_yoffset/4)) && (rot == 90 || rot == -270)) {
+		y+=spd
+	}
+	else if (place_free(x, y-(sprite_yoffset/4)) && (rot == 270 || rot == -90)) {
+		y-=spd
+	}
+}
     if kRight
     {
-        if (place_free(x+(sprite_xoffset/4), y) && image_angle == 0)
+        if (place_free(x+(sprite_xoffset/4), y) && rot == 0)
         {
-            x+=2    
+            x+=spd   
         }
-		else if (place_free(x-(sprite_xoffset/4), y) && image_angle == 180)
+		else if (place_free(x-(sprite_xoffset/4), y) && (rot == 180 || rot == -180))
 		{
-			x-=2
+			x-=spd
 		}
-		else if (place_free(x, y-(sprite_yoffset/4)) && image_angle == 90)
+		else if (place_free(x, y-(sprite_yoffset/4)) && (rot == 90 || rot == -270))
 		{
-			y-=2
+			y-=spd
 		}
-		else if (place_free(x, y+(sprite_yoffset/4)) && image_angle == 270)
+		else if (place_free(x, y+(sprite_yoffset/4)) && (rot == 270 || rot == -90))
 		{
-			y+=2
+			y+=spd
 		}
     }
+	
+if rotateR {
+    rot -= 90
+	show_debug_message(string(rot))
+}
+
+if rotateL {
+	rot += 90;
+	show_debug_message(string(rot))
+}
+
+if rot == 360 {
+	rot = 0
+}
+
+if rot == -360 {
+	rot = 0
+}
+
 /*    if kUp
     {
         if place_free(x, y-(sprite_yoffset/4))
@@ -50,41 +64,3 @@
             y+=2    
         }
     } */
-	if (rotateR)
-	{
-    if image_angle == 0
-    {
-         image_angle = 270
-    }
-    else if image_angle == 270
-    {
-       image_angle = 180
-    }
-	else if image_angle == 180
-	{
-		image_angle = 90
-	}
-	else if image_angle == 90
-	{
-		image_angle = 0
-	}
-	}
-	if (rotateL)
-	{
-    if image_angle == 0
-    {
-         image_angle = 90
-    }
-    else if image_angle == 90
-    {
-       image_angle = 180
-    }
-	else if image_angle == 180
-	{
-		image_angle = 270
-	}
-	else if image_angle == 270
-	{
-		image_angle = 0
-	}
-	}
