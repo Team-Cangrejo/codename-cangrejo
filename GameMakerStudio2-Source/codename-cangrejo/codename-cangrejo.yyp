@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "27e5a598-56c1-4c79-b425-ab67e61cd155",
+            "Value": {
+                "id": "31e0f01e-4cdc-4f1d-9652-119883a90fbe",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d3a0715-9c32-475e-b9be-b65dc0fd9ab0",
+            "Value": {
+                "id": "402d3dcd-cb28-4404-88cf-a0106e6c8252",
+                "resourcePath": "sounds\\sou_gull\\sou_gull.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2ebaf921-9275-42d7-8f7a-c9de08c24091",
             "Value": {
                 "id": "12d1ef67-3946-419c-aeec-e2bfe6d3bfef",
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "b1bb6e2b-bbe4-4475-a34f-ad49c1bfbcc7",
+            "Value": {
+                "id": "a0b0b7aa-ed4f-4f07-a608-eab3000a4842",
+                "resourcePath": "sounds\\sou_damage\\sou_damage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bafc77bd-15db-4d7a-a42c-e64f992d14c5",
             "Value": {
                 "id": "3949dae0-5e9a-4be7-8262-543f07abbe89",
@@ -332,6 +356,14 @@
                 "id": "714d9a70-70f2-4bca-b933-a07282c641bd",
                 "resourcePath": "sprites\\spr_beachjunk\\spr_beachjunk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d2a99fb4-8776-44cf-b18e-d51bda60893b",
+            "Value": {
+                "id": "0f227574-c212-45b8-9007-4d0388b68fb6",
+                "resourcePath": "sounds\\sou_music_dLemon\\sou_music_dLemon.yy",
+                "resourceType": "GMSound"
             }
         },
         {
