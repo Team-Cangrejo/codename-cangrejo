@@ -1,4 +1,4 @@
-if(place_meeting(x,y,obj_player)) {
+if(collision_circle(x,y, 64, obj_player, false, false)) {
 	if (keyboard_check_pressed(ord("Z"))) {
 	if(myTextbox == noone) {
 	myTextbox = instance_create_layer(x,y, "Text", obj_textbox);
@@ -8,6 +8,7 @@ if(place_meeting(x,y,obj_player)) {
 	}
 	}
 }
+//destroys textbox instance if there are no pages left
 else {
 	if(myTextbox != noone) {
 	instance_destroy(myTextbox);
