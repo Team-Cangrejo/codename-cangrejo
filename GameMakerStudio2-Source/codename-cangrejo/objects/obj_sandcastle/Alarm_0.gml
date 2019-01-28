@@ -1,2 +1,3 @@
 /// @description Invincible Wait
-invincible = true;
+invincible = false;
+//show_debug_message("sand alarm 0")

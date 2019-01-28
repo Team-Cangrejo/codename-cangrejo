@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_trash, trashItem, x, y, 1, 1, rot, image_blend, image_alpha)

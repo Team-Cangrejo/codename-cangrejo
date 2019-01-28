@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "6987cdd0-8719-4436-a863-0044c085af6e",
+            "Value": {
+                "id": "fda01c00-3327-4ad9-b31e-32dd8f48cb6e",
+                "resourcePath": "objects\\obj_sandpile\\obj_sandpile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70cde7cf-5339-49dd-89d7-41cc97a662f8",
             "Value": {
                 "id": "a529a85d-3d1a-411d-b5c8-c241609ae842",

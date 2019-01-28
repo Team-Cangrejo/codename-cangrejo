@@ -1,0 +1,1 @@
+draw_sprite(spr_sandcastle, 0, x, y)

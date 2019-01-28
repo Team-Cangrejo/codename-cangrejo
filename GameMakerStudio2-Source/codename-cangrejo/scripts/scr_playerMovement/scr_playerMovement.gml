@@ -28,11 +28,11 @@ if kRight {
 }
 if rotateR {
     rot -= 90
-	show_debug_message(string(rot))
+	//show_debug_message(string(rot))
 }
 if rotateL {
 	rot += 90;
-	show_debug_message(string(rot))
+	//show_debug_message(string(rot))
 }
 if rot == 360 {
 	rot = 0
