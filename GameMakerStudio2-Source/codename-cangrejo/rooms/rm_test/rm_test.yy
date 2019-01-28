@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_first_map",
+    "name": "rm_test",
     "id": "38ff4733-4f1e-4705-b19b-c24ec64e8c23",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
