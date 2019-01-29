@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "63b87c12-68d5-4046-bd5e-f8d6231d4fd3",
+            "Value": {
+                "id": "4c8d12f7-7d6f-4efc-b5d5-9ad06c951bff",
+                "resourcePath": "rooms\\rm_level_one\\rm_level_one.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "66cd7da5-008b-4e7b-8f91-f21e0bff3ecd",
             "Value": {
                 "id": "4595364c-78ab-4e2d-bfa3-4f376ab9d211",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "1cfbd5bd-3a03-46ab-95d6-4f2b82281109",
                 "resourcePath": "views\/66df1a19-1f5b-46ee-996a-c580b8b5cb7e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67eebe19-b36d-4d7c-991b-eed2bbfe2d19",
+            "Value": {
+                "id": "d7b0432f-6152-482f-862c-3c8987fd364f",
+                "resourcePath": "views\\67eebe19-b36d-4d7c-991b-eed2bbfe2d19.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -383,14 +399,6 @@
             }
         },
         {
-            "Key": "80b6b2fc-ca90-4958-af30-6084253f18d9",
-            "Value": {
-                "id": "90c24a38-e9c1-44d8-8f87-8e31a12fe0b0",
-                "resourcePath": "views\/80b6b2fc-ca90-4958-af30-6084253f18d9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "83554081-4681-4405-9b90-ee9f5b4a2ddd",
             "Value": {
                 "id": "fcd62200-09d3-481e-8106-1b0061d0c653",
@@ -404,14 +412,6 @@
                 "id": "993124f4-14a2-4c20-bd59-b48550d497b9",
                 "resourcePath": "tilesets\/tileset1\/tileset1.yy",
                 "resourceType": "GMTileSet"
-            }
-        },
-        {
-            "Key": "8541db8e-9dda-4fe7-b22d-88627647015a",
-            "Value": {
-                "id": "3848d281-385c-4a90-943d-3fe3e54b3319",
-                "resourcePath": "views\/8541db8e-9dda-4fe7-b22d-88627647015a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {

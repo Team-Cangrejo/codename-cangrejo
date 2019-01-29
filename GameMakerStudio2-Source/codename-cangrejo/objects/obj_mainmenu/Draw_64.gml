@@ -16,7 +16,7 @@ if point_in_rectangle(mouse_x, mouse_y, vw*0.4, vh*0.45, vw*0.6, vh*0.55)
 	draw_sprite_ext(spr_mmbutton, image_index, vw*0.5, vh*0.5, 0.5, 0.5, 0, c_gray, 1)
 	if mouse_check_button_pressed(mb_left)
 	{
-		room_goto(rm_test)
+		room_goto(rm_tutorial)
 	}
 }
 else

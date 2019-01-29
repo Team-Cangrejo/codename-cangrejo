@@ -15,10 +15,15 @@
         "66cd7da5-008b-4e7b-8f91-f21e0bff3ecd",
         "92873cc0-8c70-4b7b-87f7-3dd78eae7ac6",
         "e87506ef-eb57-4418-bebf-510ababd9731",
+<<<<<<< HEAD
         "80b6b2fc-ca90-4958-af30-6084253f18d9",
         "88ebbba2-5981-47ee-9b1b-d4b972652a12",
         "6d4c024b-d0cb-4a95-9676-4d6f74c1d6e6",
         "4aacc99b-1e4f-41f0-84e6-2efe6d9a5bb8"
+=======
+        "88ebbba2-5981-47ee-9b1b-d4b972652a12",
+        "80b6b2fc-ca90-4958-af30-6084253f18d9"
+>>>>>>> fda8740a16f9bfc7987c12d0ad6ecc5a8bc1a74b
     ],
     "filterType": "GMObject",
     "folderName": "Room",
