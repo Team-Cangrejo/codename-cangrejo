@@ -2,6 +2,8 @@
 vw = view_get_wport(camera_get_active())
 vh = view_get_hport(camera_get_active())
 
+//vx = camera_get_view_x(camera_get_active())
+vww = camera_get_view_width(camera_get_active())
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 
@@ -20,7 +22,7 @@ if gameover == true && obj_player.image_speed == 0
 	//however it does work. mostly. 
 	if keyboard_check_pressed(vk_enter)
 	{
-		instance_create_layer(vw, obj_player.y, "Text", obj_wipe);
+		instance_create_layer(vww, obj_player.y, "Text", obj_wipe);
 	}	
 }
 if instance_exists(obj_wipe)
@@ -40,8 +42,3 @@ if instance_exists(obj_wipe)
 		instance_activate_all();	
 	}
 }
-
-
-
-draw_set_halign(fa_left)
-draw_set_valign(fa_top)
