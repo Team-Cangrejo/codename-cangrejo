@@ -2,7 +2,7 @@
     "id": "e91aa8eb-8e5e-471a-9ba0-1061d1bda19f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hazard_parent",
+    "name": "obj_rocks",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "2aa48d9c-31a9-4553-a32d-e7a0a8f19e26",
     "visible": true
 }

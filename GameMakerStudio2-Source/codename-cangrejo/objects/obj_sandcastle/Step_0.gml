@@ -1,5 +1,5 @@
 if integrity <= 0 {
-	instance_create_layer(x, y, "Instances_1", obj_sandpile)
+	instance_create_layer(x, y, "Instances", obj_sandpile)
 	instance_destroy(self, false)
 }
 if(collision_circle(x,y, 12, obj_player, false, false)) {
