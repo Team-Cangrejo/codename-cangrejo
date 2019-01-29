@@ -5,18 +5,18 @@ text = "The Quick Brown Fox Jumped Over The Lazy Dog. One Ring to Rule Them All,
 page =  0;
 
 //buffer for edges of text
-xBuffer = 1;
-yBuffer = 1;
+xBuffer = 2;
+yBuffer = 2;
 
 //set text size
-textScale = .2;
+textScale = 1;
 
 //checking box sizes for drawing boxes/text
-boxWidth = sprite_get_width(spr_textbox);
-boxHeight = sprite_get_height(spr_textbox);
+boxWidth = 600//sprite_get_width(spr_textbox);
+boxHeight = 150//sprite_get_height(spr_textbox);
 
 //spacing in between lines
-stringHeight = (string_height(text));
+stringHeight = (string_height(text))+1;
 
 //setting to this to init var, will be changed to npc self
 creator = noone;

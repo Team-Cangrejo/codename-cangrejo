@@ -1,4 +1,4 @@
-if(collision_circle(x,y, 64, obj_player, false, false)) {
+if(collision_circle(x,y, 16, obj_player, false, false)) {
 	if (keyboard_check_pressed(ord("Z"))) {
 	if(myTextbox == noone) {
 	myTextbox = instance_create_layer(x,y, "Text", obj_textbox);
