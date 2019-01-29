@@ -1,3 +1,5 @@
+if gameover != true
+{
 if moveType == "vertical"
 {
     y+=moveSpeed
@@ -30,4 +32,9 @@ else if moveType == "horizontal"
 		}
     }
     
+}
+}
+else
+{
+	instance_deactivate_object(self);	
 }

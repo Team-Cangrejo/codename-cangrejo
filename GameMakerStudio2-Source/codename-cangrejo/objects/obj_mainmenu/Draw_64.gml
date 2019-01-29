@@ -7,6 +7,8 @@ draw_set_valign(fa_center)
 
 //draw buttons
 //draw_rectangle(vw*0.4, vh*0.45, vw*0.6, vh*0.55, true)
+//draw title
+draw_sprite_ext(spr_titlecard, 0, vw*0.5, vh*0.20, 2, 2, 0, c_white, 1)
 
 //playbutton
 if point_in_rectangle(mouse_x, mouse_y, vw*0.4, vh*0.45, vw*0.6, vh*0.55)

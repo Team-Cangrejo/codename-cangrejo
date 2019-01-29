@@ -7,5 +7,7 @@ else {
 	gpu_set_fog(true, c_white, 0, 1)
 }
 
-draw_sprite_ext(spr_crab, image_index, x, y, 1, 1, rot, image_blend, image_alpha);
+
+draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, rot, image_blend, image_alpha);
+
 gpu_set_fog(false, c_white, 0, 1)
