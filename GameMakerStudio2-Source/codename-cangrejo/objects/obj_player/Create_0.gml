@@ -1,5 +1,5 @@
-playerHealth = 3;
-maxHealth = 3;
+playerHealth = 9;
+maxHealth = 9;
 invincible_ = false;
 rot = 0;
 spd = 2;
