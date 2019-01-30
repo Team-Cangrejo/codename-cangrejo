@@ -1,6 +1,7 @@
 /// @description 
-globalvar gameover;
+globalvar gameover, totalTime;
 
+totalTime = 0;
 gameover = false;
 
 
@@ -12,3 +13,6 @@ textD = "No need to be crabby."
 textE = "You're in hot water now."
 
 gameoverText = choose(textA, textB, textC, textD, textE)
+
+roomFinished = false;
+roomTime = 0;
