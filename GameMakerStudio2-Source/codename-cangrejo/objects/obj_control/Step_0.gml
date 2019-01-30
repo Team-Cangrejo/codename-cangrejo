@@ -2,7 +2,7 @@
 var _mytime = roomTime;
 if roomFinished == false
 {
-	roomTime+=1.25;
+	roomTime+=1.25; //This is probably as close as we're gonna get to actual time. 
 }
 else
 {
@@ -12,9 +12,9 @@ else
 	roomSeconds = _seconds - (roomMinutes*60)
 }
 
-/*
-	True time:  
-	Game time: 
-	Difference of: 
-	
-*/
+var _gameTime = totalTime
+
+var _totSeconds = _gameTime div 60;
+
+gameMinutes = _totSeconds div 60;
+gameSeconds = _totSeconds - (gameMinutes*60);
