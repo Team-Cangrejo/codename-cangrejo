@@ -1,9 +1,10 @@
 /// @description 
-globalvar gameover, totalTime;
+globalvar gameover, totalTime, haveMusic, haveSound;
 
 totalTime = 0;
 gameover = false;
-
+haveMusic = true;
+haveSound = true;
 
 
 textA = "Aw crab."
