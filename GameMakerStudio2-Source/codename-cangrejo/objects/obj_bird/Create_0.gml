@@ -1,6 +1,7 @@
 randomize();
 
-moveType = choose("vertical","horizontal");
+//moveType = choose("vertical","horizontal");
+moveType = "horizontal";
 
 moveSpeed = 1;
 
