@@ -36,7 +36,15 @@ if instance_exists(obj_wipe)
 			image_speed = 1;
 			rot = 0;
 		}
+		with obj_sandpile 
+		{
+			instance_destroy();	
+		}
 		instance_activate_all();	
+		with obj_sandcastle
+		{
+			integrity = 3;	
+		} //fun resets
 		gameover = false;	
 	}
 }
