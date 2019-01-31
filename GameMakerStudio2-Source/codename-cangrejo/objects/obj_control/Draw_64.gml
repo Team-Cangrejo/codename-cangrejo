@@ -90,8 +90,8 @@ draw_set_valign(fa_top)
 
 
 //Draw music and sound noodles
-//if room == rm_main_menu || room == rm_controls || room == rm_credits
-//{
+if room == rm_main_menu || room == rm_controls || room == rm_credits
+{
 	switch (haveMusic)
 	{
 		case true:
@@ -139,8 +139,8 @@ draw_set_valign(fa_top)
 			}
 		break;
 	}
-//}
-/*else
+}
+else
 {
 	switch (haveMusic)
 	{
