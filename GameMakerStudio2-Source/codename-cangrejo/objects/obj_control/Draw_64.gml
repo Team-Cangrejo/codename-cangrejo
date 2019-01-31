@@ -84,5 +84,113 @@ if (room != rm_main_menu) && (room != rm_controls) &&(room != rm_credits)
 			
 	}
 }
+
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
+
+
+//Draw music and sound noodles
+if room == rm_main_menu || room == rm_controls || room == rm_credits
+{
+	switch (haveMusic)
+	{
+		case true:
+			draw_sprite_ext(spr_musicIcon, 0, vw*0.05, vh*0.95, 2, 2, 0, c_white, 1)
+			if point_in_circle(mouse_x, mouse_y, vw*0.05, vh*0.95, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveMusic = false;	
+				}
+			}
+		break;
+		case false:
+			draw_sprite_ext(spr_musicIcon, 1, vw*0.05, vh*0.95, 2, 2, 0, c_white, 1)
+			if point_in_circle(mouse_x,mouse_y, vw*0.05, vh*0.95, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveMusic = true;	
+				}
+			}
+		break;
+	}
+
+	switch (haveSound)
+	{
+		case true:
+			draw_sprite_ext(spr_soundIcon, 0, vw*0.12, vh*0.95, 2, 2, 0, c_white, 1)
+			if point_in_circle(mouse_x, mouse_y, vw*0.12, vh*0.95, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveSound = false;	
+				}
+			}
+		break;
+		case false:
+			draw_sprite_ext(spr_soundIcon, 1, vw*0.12, vh*0.95, 2, 2, 0, c_white, 1)
+			if point_in_circle(mouse_x,mouse_y, vw*0.12, vh*0.95, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveSound = true;	
+				}
+			}
+		break;
+	}
+}
+else
+{
+	switch (haveMusic)
+	{
+		case true:
+			draw_sprite_ext(spr_musicIcon, 0, vw*0.04, vh*0.75, 2, 2, 0, c_white, 1)
+			if point_in_circle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), vw*0.04, vh*0.75, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveMusic = false;	
+				}
+			}
+		break;
+		case false:
+			draw_sprite_ext(spr_musicIcon, 1, vw*0.04, vh*0.75, 2, 2, 0, c_white, 1)
+			if point_in_circle(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0), vw*0.04, vh*0.75, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveMusic = true;	
+				}
+			}
+		break;
+	}
+
+	switch (haveSound)
+	{
+		case true:
+			draw_sprite_ext(spr_soundIcon, 0, vw*0.10, vh*0.75, 2, 2, 0, c_white, 1)
+			if point_in_circle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), vw*0.10, vh*0.75, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveSound = false;	
+				}
+			}
+		break;
+		case false:
+			draw_sprite_ext(spr_soundIcon, 1, vw*0.10, vh*0.75, 2, 2, 0, c_white, 1)
+			if point_in_circle(device_mouse_x_to_gui(0),device_mouse_y_to_gui(0), vw*0.10, vh*0.75, 32)
+			{
+				if mouse_check_button_pressed(mb_left)
+				{
+					haveSound = true;	
+				}
+			}
+		break;
+	}	
+	
+	
+}
+
+
