@@ -1,7 +1,7 @@
 /// @description 
 vw = view_get_wport(camera_get_active())
 vh = view_get_hport(camera_get_active())
-
+display_set_gui_maximize();
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 
@@ -90,8 +90,8 @@ draw_set_valign(fa_top)
 
 
 //Draw music and sound noodles
-if room == rm_main_menu || room == rm_controls || room == rm_credits
-{
+//if room == rm_main_menu || room == rm_controls || room == rm_credits
+//{
 	switch (haveMusic)
 	{
 		case true:
@@ -139,8 +139,8 @@ if room == rm_main_menu || room == rm_controls || room == rm_credits
 			}
 		break;
 	}
-}
-else
+//}
+/*else
 {
 	switch (haveMusic)
 	{

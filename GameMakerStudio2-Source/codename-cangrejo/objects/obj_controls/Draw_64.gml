@@ -1,8 +1,8 @@
+ /// @description 
 /// @description 
-/// @description 
-vw = view_get_wport(camera_get_active())
-vh = view_get_hport(camera_get_active())
-
+vw = camera_get_view_width(camera_get_active())
+vh = camera_get_view_height(camera_get_active())
+display_set_gui_maximize()
 draw_set_halign(fa_center)
 draw_set_valign(fa_center)
 
