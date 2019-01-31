@@ -8,6 +8,6 @@ rotateL = keyboard_check_pressed(vk_left)
 
 
 //for debug purposes - remove on release
-restart = keyboard_check_pressed(ord("R"))
+//restart = keyboard_check_pressed(ord("R"))
 
-if restart{game_restart()}
+//if restart{game_restart()}

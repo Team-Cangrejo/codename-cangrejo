@@ -17,7 +17,7 @@ for (var i = 0; i < clamp(maxH, 0, 3); i++) //fun controls so we don't overdraw 
 }
 
 
-//Fun debug stuff
+/*/Fun debug stuff
 if keyboard_check_pressed(ord("P")) //practice life magic
 {
     if obj_player.playerHealth != obj_player.maxHealth
