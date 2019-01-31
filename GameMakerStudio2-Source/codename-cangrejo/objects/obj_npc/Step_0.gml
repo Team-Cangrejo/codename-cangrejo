@@ -1,5 +1,5 @@
 if(collision_circle(x,y, 16, obj_player, false, false)) {
-	if (keyboard_check_pressed(ord("Z"))) {
+	if obj_player.kSpace {
 	if(myTextbox == noone) {
 	myTextbox = instance_create_layer(x,y, "Text", obj_textbox);
 	myTextbox.text = myText;

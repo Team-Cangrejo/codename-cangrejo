@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "47b862c7-b523-43c2-84ca-45d5cdfb0970",
+            "Value": {
+                "id": "15cdb6b5-03cf-49e1-a099-09f5cb739b67",
+                "resourcePath": "objects\\obj_hidden_teleport\\obj_hidden_teleport.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "487cbf8e-55e4-4604-a41b-eaa049c679d8",
             "Value": {
                 "id": "b0d2454a-1205-4aae-99f3-15cc3d4068f2",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "8851fd82-b75e-4126-8629-7c87341736d0",
+            "Value": {
+                "id": "53012fa3-a250-42df-ba07-4d04c36d57d2",
+                "resourcePath": "sounds\\sou_sand1\\sou_sand1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "88ebbba2-5981-47ee-9b1b-d4b972652a12",
             "Value": {
                 "id": "6c24e468-b7c5-464f-91d5-1e9796de3cf0",
@@ -508,6 +524,14 @@
                 "id": "3791fb9c-cd74-4830-af5b-0721fb566e8f",
                 "resourcePath": "views\/a5f52b2d-01ec-4f49-a590-05d467b0445b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a75fee27-8cf9-437b-a912-20f40bc4b04f",
+            "Value": {
+                "id": "3eac2f99-e574-413a-ba10-34a1d35e5e3f",
+                "resourcePath": "sounds\\sou_sand2\\sou_sand2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -732,6 +756,14 @@
                 "id": "608cda8b-844e-4fe5-aaf3-7a6d100d57ac",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6e5426d-b33d-4d9a-818e-ce59f2fe3d07",
+            "Value": {
+                "id": "aa359923-6a7c-4ce4-9cbe-66ad5328820f",
+                "resourcePath": "sounds\\sou_trash\\sou_trash.yy",
+                "resourceType": "GMSound"
             }
         },
         {

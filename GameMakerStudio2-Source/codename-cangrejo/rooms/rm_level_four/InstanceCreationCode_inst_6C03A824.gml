@@ -2,7 +2,7 @@
 myName = "Cultist";
 
 //array used by draw in obj_textbox
-myText[0] = "Hey, don't ask me what they're doing. I just want to fit in.";
+myText[0] = "Is it just me or does the swirly keep getting slower...";
 
 //stuff for draw
 sprite = spr_crab_npc;

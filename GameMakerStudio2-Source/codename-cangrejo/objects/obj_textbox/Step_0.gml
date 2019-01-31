@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(ord("Z"))) {
+if obj_player.kSpace {
 	//this allows to skip text by pressing Z again
 	if(charCount < string_length(text[page])) {
 		charCount = string_length(text[page])
