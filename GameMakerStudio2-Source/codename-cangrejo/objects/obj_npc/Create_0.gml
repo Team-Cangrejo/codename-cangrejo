@@ -8,9 +8,8 @@ myName = "";
 myText[0] = "";
 
 //stuff for draw
-sprite = spr_crab;
+sprite = spr_crab_npc;
 rot = 0;
-subimg = image_index
 xscale = 1;
 yscale = 1;
-imageBlend = image_blend;
+image_blend = choose(c_red, c_blue, c_green, c_olive, c_navy)
