@@ -12,4 +12,4 @@ sprite = spr_crab_npc;
 rot = 0;
 xscale = 1;
 yscale = 1;
-image_blend = choose(c_red, c_blue, c_green, c_olive, c_navy)
+image_blend = choose(c_maroon, c_blue, c_green, c_olive, c_navy)

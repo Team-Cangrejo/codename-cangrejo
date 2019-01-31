@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -237,6 +237,14 @@
                 "resourcePath": "views\/42ed8bae-39d7-4a84-8658-0deff4c0cb6f.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "47de2c27-0cac-428c-b05e-9712eddfac84",
+            "Value": {
+                "id": "10c5461d-1ad7-4c87-b32c-b719fefbd673",
+                "resourcePath": "rooms\\rm_kit_level_two\\rm_kit_level_two.yy",
+                "resourceType": "GMRoom"
+                }
         },
         {
             "Key": "47b862c7-b523-43c2-84ca-45d5cdfb0970",
