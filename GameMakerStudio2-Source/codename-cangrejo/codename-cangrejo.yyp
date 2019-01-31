@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "38ff4733-4f1e-4705-b19b-c24ec64e8c23",
-            "Value": {
-                "id": "925ced3d-ab6b-449e-9aef-89c6cea1de70",
-                "resourcePath": "rooms\/rm_test\/rm_test.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3c637e48-d8a8-4e09-af81-7d3feb0d7ff5",
             "Value": {
                 "id": "d8b10d92-a2b7-4484-94bc-c371f24151a6",
@@ -239,19 +231,19 @@
             }
         },
         {
-            "Key": "47de2c27-0cac-428c-b05e-9712eddfac84",
-            "Value": {
-                "id": "10c5461d-1ad7-4c87-b32c-b719fefbd673",
-                "resourcePath": "rooms\\rm_kit_level_two\\rm_kit_level_two.yy",
-                "resourceType": "GMRoom"
-                }
-        },
-        {
             "Key": "47b862c7-b523-43c2-84ca-45d5cdfb0970",
             "Value": {
                 "id": "15cdb6b5-03cf-49e1-a099-09f5cb739b67",
                 "resourcePath": "objects\\obj_hidden_teleport\\obj_hidden_teleport.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47de2c27-0cac-428c-b05e-9712eddfac84",
+            "Value": {
+                "id": "10c5461d-1ad7-4c87-b32c-b719fefbd673",
+                "resourcePath": "rooms\\rm_kit_level_two\\rm_kit_level_two.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
